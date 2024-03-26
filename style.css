@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+}
+
+*::after, *::before, * {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+button {
+    padding: 5px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button:hover {
+    transform: translate3d(3px, 3px, 10px);
+    box-shadow: -3px -3px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 960px;
+}
+
+main {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    gap: 35px;
+    box-shadow: 1px 3px 20px 0px rgba(3,2,3,1);
+    background-color: #d6ffd4;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    position: absolute;
+    top: 800px;
+}
+
+.container {
+    border-radius: 5px;
+    width: 960px;
+    height: 360px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.container > div {
+    border: 1px solid rgba(127, 127, 127, .5);
+    /* display: flex;
+    flex: 1; */
+    height: 90px;
+    width: 240px;
+
+}
