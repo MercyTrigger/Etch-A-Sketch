@@ -22,6 +22,7 @@ button {
     cursor: pointer;
     border-radius: 5px;
     border: 1px solid black;
+    background-color: #fff;
 }
 
 button:hover {
@@ -51,7 +52,8 @@ main {
 
 span {
     position: absolute;
-    top: 800px;
+    top: 726px;
+    left: 444px;
 }
 
 .container {
@@ -67,9 +69,6 @@ span {
 
 .container > div {
     border: 1px solid rgba(127, 127, 127, .5);
-    /* display: flex;
-    flex: 1; */
     height: 90px;
     width: 240px;
-
 }
